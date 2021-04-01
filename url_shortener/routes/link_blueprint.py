@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, redirect
-from url_shortener.models.link import LinkModel
+from ..models.link import LinkModel
 from datetime import datetime
 
 short = Blueprint("short", __name__)
